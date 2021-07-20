@@ -16,9 +16,15 @@
     <explicitExcludes>
       <Path>.git</Path>
       <Path>.idea</Path>
+<<<<<<< HEAD
       <Path>Library</Path>
       <Path>Logs</Path>
       <Path>Temp</Path>
+=======
+      <Path>Inspiration pictures</Path>
+      <Path>Library</Path>
+      <Path>Logs</Path>
+>>>>>>> FirstPersonPlayer
       <Path>obj</Path>
     </explicitExcludes>
   </component>
