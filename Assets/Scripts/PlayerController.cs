@@ -105,11 +105,15 @@ public class PlayerController : MonoBehaviour
             if(!_audioSource.isPlaying)
             {
                 _audioSource.Play ();
+                Cursor.visible = false;
+                Cursor.lockState = CursorLockMode.Locked;
             }
         }
         else
         {
             _audioSource.Stop();
+            Cursor.visible = true;
+            Cursor.lockState = CursorLockMode.None;
         }
     }
 
