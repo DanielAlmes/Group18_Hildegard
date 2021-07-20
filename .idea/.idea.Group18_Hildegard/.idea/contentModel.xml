@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-<<<<<<< HEAD
-    <e p="C:\Users\Hannah\.Rider2019.3\system\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\Hannah\.Rider2019.3\system\resharper-host\local\Transient\ReSharperHost\v193\SolutionCaches\_Group18_Hildegard.2117343880.00" t="ExcludeRecursive" />
-    <e p="C:\Users\Hannah\Documents\unity\Group18_Hildegard" t="IncludeRecursive">
+    <e p="C:\Users\User\.Rider2019.3\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\User\.Rider2019.3\system\resharper-host\local\Transient\ReSharperHost\v193\SolutionCaches\_Group18_Hildegard.1958009816.00" t="ExcludeRecursive" />
+    <e p="C:\Users\User\Documents\Uni\Master\Semester 1\Advanced Unity\Group18_Hildegard" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
@@ -15,6 +14,7 @@
           <e p="Highscore.cs" t="Include" />
           <e p="HighscoreMenu.cs" t="Include" />
           <e p="MainMenuScript.cs" t="Include" />
+          <e p="PlayerController.cs" t="Include" />
           <e p="Score.cs" t="Include" />
           <e p="SoundManager.cs" t="Include" />
           <e p="StaticVar.cs" t="Include" />
@@ -93,15 +93,6 @@
           <e p="Sprites" t="Include">
             <e p="EmojiOne Attribution.txt" t="Include" />
           </e>
-=======
-    <e p="C:\Users\User\.Rider2019.3\system\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\User\.Rider2019.3\system\resharper-host\local\Transient\ReSharperHost\v193\SolutionCaches\_Group18_Hildegard.1958009816.00" t="ExcludeRecursive" />
-    <e p="C:\Users\User\Documents\Uni\Master\Semester 1\Advanced Unity\Group18_Hildegard" t="IncludeRecursive">
-      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
-      <e p="Assets" t="Include">
-        <e p="Script" t="Include">
-          <e p="PlayerController.cs" t="Include" />
->>>>>>> FirstPersonPlayer
         </e>
       </e>
       <e p="Group18_Hildegard.sln" t="IncludeFlat" />
