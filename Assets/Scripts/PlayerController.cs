@@ -14,7 +14,6 @@ public class PlayerController : MonoBehaviour
     //Gravity
     [SerializeField] private float gravity = -9.81f;
     [SerializeField] private float jumpHeight = 1.0f;
-    [SerializeField] private LayerMask ground;
     
     [SerializeField] private bool lockCursor = true;
 

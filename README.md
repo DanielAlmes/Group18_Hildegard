@@ -38,7 +38,7 @@ To encounter this tough task, a time limit is set to increase the pressure.
 * Assets
     * Selected Assets are used.
 * Textures
-    * [Brick Textures](http://www.cadhatch.com/seamless-brick-textures-page3/4588355357)
+    * [Free Textures](http://www.cadhatch.com)
 
 ### Miscellaneous
 This project was built from scratch.
