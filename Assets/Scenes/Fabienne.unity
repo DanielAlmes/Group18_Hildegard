@@ -429,7 +429,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 345360209}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -6200,7 +6200,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _distance: 0
   item: {fileID: 1989047748}
-  actionText: {fileID: 412569733}
+  actionText: {fileID: 1647493196}
   helditem: {fileID: 1863341273}
 --- !u!1 &267708899
 GameObject:
@@ -6815,7 +6815,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &345360206
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6888,7 +6888,6 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children:
   - {fileID: 1647493197}
-  - {fileID: 412569736}
   - {fileID: 83157166}
   - {fileID: 1719293076}
   m_Father: {fileID: 0}
@@ -7370,84 +7369,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 403534209}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &412569733
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 412569736}
-  - component: {fileID: 412569735}
-  - component: {fileID: 412569734}
-  m_Layer: 5
-  m_Name: ActionTextFlashligt
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!114 &412569734
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 412569733}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 0.6690772, g: 0.65850836, b: 0.9245283, a: 1}
-  m_RaycastTarget: 1
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 25
-    m_FontStyle: 0
-    m_BestFit: 0
-    m_MinSize: 2
-    m_MaxSize: 40
-    m_Alignment: 4
-    m_AlignByGeometry: 0
-    m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: A flashlight. This could help!
---- !u!222 &412569735
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 412569733}
-  m_CullTransparentMesh: 0
---- !u!224 &412569736
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 412569733}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 345360209}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0}
-  m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 42.4, y: 90.4}
-  m_SizeDelta: {x: 1061.6775, y: 91.31952}
-  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1001 &473054890
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -23747,7 +23668,7 @@ GameObject:
   - component: {fileID: 1647493199}
   - component: {fileID: 1647493198}
   m_Layer: 5
-  m_Name: ActionTextDoor
+  m_Name: ActionText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -23770,7 +23691,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
   m_AnchoredPosition: {x: -8, y: 114}
-  m_SizeDelta: {x: 218.54779, y: 44.120193}
+  m_SizeDelta: {x: 1000, y: 44.120193}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1647493198
 MonoBehaviour:
@@ -23804,7 +23725,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: A closed door.
+  m_Text: 
 --- !u!222 &1647493199
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -24154,7 +24075,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 345360209}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
@@ -24811,11 +24732,11 @@ PrefabInstance:
         type: 3}
       propertyPath: actionText
       value: 
-      objectReference: {fileID: 412569733}
+      objectReference: {fileID: 0}
     - target: {fileID: 2785025712574238286, guid: f07aa20d3354cb041bf78d7b798112bc,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4867734069033720428, guid: f07aa20d3354cb041bf78d7b798112bc,
         type: 3}

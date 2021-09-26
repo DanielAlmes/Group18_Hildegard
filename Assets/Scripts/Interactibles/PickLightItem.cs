@@ -22,6 +22,7 @@ public class PickLightItem : MonoBehaviour
     {
         if (_distance <= 2f)
         {
+            actionText.GetComponent<Text>().text = "A flashlight. Might be useful!";
             actionText.SetActive(true);
             Cursor.visible = true;
         }
