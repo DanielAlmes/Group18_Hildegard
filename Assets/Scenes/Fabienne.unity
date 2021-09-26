@@ -6815,7 +6815,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &345360206
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24815,12 +24815,12 @@ PrefabInstance:
     - target: {fileID: 2785025712574238286, guid: f07aa20d3354cb041bf78d7b798112bc,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4867734069033720428, guid: f07aa20d3354cb041bf78d7b798112bc,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4867734069033720428, guid: f07aa20d3354cb041bf78d7b798112bc,
         type: 3}
@@ -24830,37 +24830,42 @@ PrefabInstance:
     - target: {fileID: 4867734069033720428, guid: f07aa20d3354cb041bf78d7b798112bc,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: 2.25
       objectReference: {fileID: 0}
     - target: {fileID: 4867734069033720428, guid: f07aa20d3354cb041bf78d7b798112bc,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.953717
+      value: 0.8985542
       objectReference: {fileID: 0}
     - target: {fileID: 4867734069033720428, guid: f07aa20d3354cb041bf78d7b798112bc,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: 0.05516277
       objectReference: {fileID: 0}
     - target: {fileID: 4867734069033720428, guid: f07aa20d3354cb041bf78d7b798112bc,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.30070576
+      value: -0.41900265
       objectReference: {fileID: 0}
     - target: {fileID: 4867734069033720428, guid: f07aa20d3354cb041bf78d7b798112bc,
         type: 3}
       propertyPath: m_LocalRotation.z
+      value: -0.11829695
+      objectReference: {fileID: 0}
+    - target: {fileID: 4867734069033720428, guid: f07aa20d3354cb041bf78d7b798112bc,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4867734069033720428, guid: f07aa20d3354cb041bf78d7b798112bc,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: -35
+      value: -50
       objectReference: {fileID: 0}
     - target: {fileID: 4867734069033720428, guid: f07aa20d3354cb041bf78d7b798112bc,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
+      value: -15
       objectReference: {fileID: 0}
     - target: {fileID: 5431598565269049265, guid: f07aa20d3354cb041bf78d7b798112bc,
         type: 3}
@@ -26285,7 +26290,7 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 1863341272}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &2074275265
+--- !u!114 &2074275269
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
