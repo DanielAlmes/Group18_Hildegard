@@ -23,7 +23,9 @@ public class DoorOpen : MonoBehaviour
         if (_distance <= 2f)
         {
             ActionText.SetActive(true);
-        }
+                Cursor.visible = true;
+                Cursor.lockState = CursorLockMode.None;
+            }
 
         if (Input.GetMouseButtonDown(0))
         {
@@ -33,6 +35,8 @@ public class DoorOpen : MonoBehaviour
                 ActionText.SetActive(false);
                 Door.GetComponent<Animation>().Play("DoorOpenAnim001");
                 CreakSound.Play();
+                Cursor.visible = false;
+                Cursor.lockState = CursorLockMode.Locked;
             }
         }
     }
