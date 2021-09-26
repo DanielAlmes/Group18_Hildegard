@@ -12,8 +12,8 @@ public class Opening : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        player.GetComponent<PlayerController>().enabled = false;
         Cursor.visible = false;
+        player.GetComponent<PlayerController>().enabled = false;
         StartCoroutine(ScenePlayer());
     }
 

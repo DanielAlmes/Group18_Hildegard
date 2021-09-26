@@ -10,7 +10,7 @@ public class PickLightItem : MonoBehaviour
     [SerializeField] private GameObject item;
     [SerializeField] private GameObject actionText;
 
-    public GameObject light;
+    public GameObject helditem;
     // Update is called once per frame
     void Update()
     {
@@ -37,7 +37,7 @@ public class PickLightItem : MonoBehaviour
             if (_distance <= 2f)
             {
                 item.SetActive(false);
-                light.SetActive(true);
+                helditem.SetActive(true);
                 actionText.SetActive(false);
                 Cursor.visible = false;
             }
