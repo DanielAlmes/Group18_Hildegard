@@ -10,7 +10,7 @@ To encounter this tough task, a time limit is set to increase the pressure.
 
 * There are different modes (Timer versus no timer)
 * One has to solve different mysteries while navigating through some rooms / maze.
-* Interaction with object or things will lead to new discoveries
+* Interaction with objects or things will lead to new discoveries
 
 ### How to play:
 * Move with arrow keys (forward / backward)
@@ -39,6 +39,7 @@ To encounter this tough task, a time limit is set to increase the pressure.
     * Selected Assets are used.
 * Textures
     * [Free Textures](http://www.cadhatch.com)
+    * [Floor Textures](https://seamless-pixels.blogspot.com/2012/09/free-seamless-floor-tile-textures.html)
 
 ### Miscellaneous
 This project was built from scratch.
@@ -60,7 +61,7 @@ $ git push
 
 ## Contributors
 This is a project of Group 18 in the course 'Advanced Experiment Design in Unity' (SoSe 2021)
-* Name 1
+* Hannah Onken
 * Fabienne Kock
 
 
