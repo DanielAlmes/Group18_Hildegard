@@ -4,7 +4,7 @@
 ## A description about the project.
 ### What is the content?
 This project is a game in Unity where the player is in an Escape Room in a mysterious room complex / maze system in the house of the dead Hildegard.
-The player has to find the key items to open the door and get into the next room until 
+The player has to find the key items to open the door and get into the next room until
 the Exit is found.
 To encounter this tough task, a time limit is set to increase the pressure.
 
@@ -34,9 +34,11 @@ To encounter this tough task, a time limit is set to increase the pressure.
 * Music
     * There will be music that should give a feeling of "horror" as one would expect in such a game
 * Scenes
-    * There will be different scenes by each group member. (Also to avoid merge conflicts) 
+    * There will be different scenes by each group member. (Also to avoid merge conflicts)
 * Assets
     * Selected Assets are used.
+* Textures
+    * [Free Textures](http://www.cadhatch.com)
 
 ### Miscellaneous
 This project was built from scratch.
@@ -59,8 +61,8 @@ $ git push
 ## Contributors
 This is a project of Group 18 in the course 'Advanced Experiment Design in Unity' (SoSe 2021)
 * Name 1
-* Name 2
-* Name 3
+* Fabienne Kock
+
 
 [Unity Website](https://unity.com/de)
 
