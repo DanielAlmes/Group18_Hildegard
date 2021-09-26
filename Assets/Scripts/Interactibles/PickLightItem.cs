@@ -1,16 +1,16 @@
-﻿using System;
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-public class DoorOpen : MonoBehaviour
+
+public class PickLightItem : MonoBehaviour
 {
     public float _distance;
-
-    public GameObject ActionText;
-    public GameObject Door;
-    public AudioSource CreakSound;
     
+    [SerializeField] private GameObject item;
+    [SerializeField] private GameObject actionText;
+
+    public GameObject light;
     // Update is called once per frame
     void Update()
     {
@@ -22,12 +22,12 @@ public class DoorOpen : MonoBehaviour
     {
         if (_distance <= 2f)
         {
-            ActionText.SetActive(true);
+            actionText.SetActive(true);
             Cursor.visible = true;
-            }
+        }
         else
         {
-            ActionText.SetActive(false);
+            actionText.SetActive(false);
             Cursor.visible = false;
             
         }
@@ -36,10 +36,9 @@ public class DoorOpen : MonoBehaviour
         {
             if (_distance <= 2f)
             {
-                this.GetComponent<BoxCollider>().enabled = false;
-                ActionText.SetActive(false);
-                Door.GetComponent<Animation>().Play("DoorOpenAnim001");
-                CreakSound.Play();
+                item.SetActive(false);
+                light.SetActive(true);
+                actionText.SetActive(false);
                 Cursor.visible = false;
             }
         }
@@ -47,7 +46,7 @@ public class DoorOpen : MonoBehaviour
 
     private void OnMouseExit()
     {
-        ActionText.SetActive(false);
+        actionText.SetActive(false);
         Cursor.visible = false;
     }
 }

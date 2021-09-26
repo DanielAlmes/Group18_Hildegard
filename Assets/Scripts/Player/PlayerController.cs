@@ -104,7 +104,6 @@ public class PlayerController : MonoBehaviour
             if(!_audioSource.isPlaying)
             {
                 _audioSource.Play ();
-
             }
         }
         else
