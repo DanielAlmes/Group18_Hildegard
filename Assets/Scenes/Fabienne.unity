@@ -708,6 +708,30 @@ Transform:
   m_Father: {fileID: 1085799736}
   m_RootOrder: 28
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &117208892 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 542748901, guid: f07aa20d3354cb041bf78d7b798112bc,
+    type: 3}
+  m_PrefabInstance: {fileID: 1863341272}
+  m_PrefabAsset: {fileID: 0}
+--- !u!111 &117208895
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 117208892}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: 8e52b1d686a69874390c443fe0ed3f8a, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: 8e52b1d686a69874390c443fe0ed3f8a, type: 2}
+  - {fileID: 7400000, guid: d6f0d709584fa514cb7cf1829bbbf21d, type: 2}
+  - {fileID: 7400000, guid: 71024c9e2245f7b4887f9789221a3df3, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
 --- !u!1 &125270122
 GameObject:
   m_ObjectHideFlags: 0
@@ -8975,6 +8999,26 @@ Transform:
   m_Father: {fileID: 1085799736}
   m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &748421585 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6243319786407155447, guid: f07aa20d3354cb041bf78d7b798112bc,
+    type: 3}
+  m_PrefabInstance: {fileID: 1863341272}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &748421586
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 748421585}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 238ec6e44718646449a1d64ef84731b7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lightMode: 0
+  flameLight: {fileID: 117208892}
 --- !u!1001 &778953139
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -24364,6 +24408,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 542748901, guid: f07aa20d3354cb041bf78d7b798112bc, type: 3}
+      propertyPath: m_Name
+      value: FlashLight
+      objectReference: {fileID: 0}
+    - target: {fileID: 542748903, guid: f07aa20d3354cb041bf78d7b798112bc, type: 3}
+      propertyPath: m_Intensity
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 542748903, guid: f07aa20d3354cb041bf78d7b798112bc, type: 3}
       propertyPath: m_Lightmapping
       value: 1
