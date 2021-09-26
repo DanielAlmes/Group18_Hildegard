@@ -8191,12 +8191,6 @@ Transform:
   m_Father: {fileID: 1085799736}
   m_RootOrder: 27
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &604751566 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5431598565269049265, guid: f07aa20d3354cb041bf78d7b798112bc,
-    type: 3}
-  m_PrefabInstance: {fileID: 1863341272}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &606532183
 GameObject:
   m_ObjectHideFlags: 0
@@ -24724,75 +24718,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 748421589, guid: f07aa20d3354cb041bf78d7b798112bc, type: 3}
-      propertyPath: flameLight
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 1360779445458051719, guid: f07aa20d3354cb041bf78d7b798112bc,
-        type: 3}
-      propertyPath: actionText
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 2785025712574238286, guid: f07aa20d3354cb041bf78d7b798112bc,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4867734069033720428, guid: f07aa20d3354cb041bf78d7b798112bc,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4867734069033720428, guid: f07aa20d3354cb041bf78d7b798112bc,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 1.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 4867734069033720428, guid: f07aa20d3354cb041bf78d7b798112bc,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 2.25
-      objectReference: {fileID: 0}
-    - target: {fileID: 4867734069033720428, guid: f07aa20d3354cb041bf78d7b798112bc,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.8985542
-      objectReference: {fileID: 0}
-    - target: {fileID: 4867734069033720428, guid: f07aa20d3354cb041bf78d7b798112bc,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0.05516277
-      objectReference: {fileID: 0}
-    - target: {fileID: 4867734069033720428, guid: f07aa20d3354cb041bf78d7b798112bc,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0.41900265
-      objectReference: {fileID: 0}
-    - target: {fileID: 4867734069033720428, guid: f07aa20d3354cb041bf78d7b798112bc,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0.11829695
-      objectReference: {fileID: 0}
-    - target: {fileID: 4867734069033720428, guid: f07aa20d3354cb041bf78d7b798112bc,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4867734069033720428, guid: f07aa20d3354cb041bf78d7b798112bc,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: -50
-      objectReference: {fileID: 0}
-    - target: {fileID: 4867734069033720428, guid: f07aa20d3354cb041bf78d7b798112bc,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: -15
-      objectReference: {fileID: 0}
-    - target: {fileID: 5431598565269049265, guid: f07aa20d3354cb041bf78d7b798112bc,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 6243319785877274625, guid: f07aa20d3354cb041bf78d7b798112bc,
         type: 3}
       propertyPath: m_Name
@@ -24853,9 +24778,7 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 1360779445458051719, guid: f07aa20d3354cb041bf78d7b798112bc, type: 3}
-    - {fileID: 748421589, guid: f07aa20d3354cb041bf78d7b798112bc, type: 3}
+    m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f07aa20d3354cb041bf78d7b798112bc, type: 3}
 --- !u!1 &1863341273 stripped
 GameObject:
@@ -26205,26 +26128,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2040769500}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1 &2074275264 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3967486213777268757, guid: f07aa20d3354cb041bf78d7b798112bc,
-    type: 3}
-  m_PrefabInstance: {fileID: 1863341272}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &2074275269
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2074275264}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 238ec6e44718646449a1d64ef84731b7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  lightMode: 0
-  flameLight: {fileID: 604751566}
 --- !u!1 &2105131848
 GameObject:
   m_ObjectHideFlags: 0
