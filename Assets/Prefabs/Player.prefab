@@ -108,7 +108,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &4867734069033720428
 Transform:
   m_ObjectHideFlags: 0
@@ -116,16 +116,16 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2785025712574238286}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 2, z: 0}
+  m_LocalRotation: {x: 0.05516277, y: -0.41900265, z: -0.11829695, w: 0.8985542}
+  m_LocalPosition: {x: 1, y: 1.5, z: 2.25}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 2218690799341954825}
   - {fileID: 4794763425851462434}
   - {fileID: 3242336452803494542}
-  m_Father: {fileID: 6243319785877274628}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Father: {fileID: 6243319786407155448}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -50, z: -15}
 --- !u!1 &3967486213777268757
 GameObject:
   m_ObjectHideFlags: 0
@@ -138,6 +138,7 @@ GameObject:
   - component: {fileID: 8239441196017685195}
   - component: {fileID: 5786945322999322601}
   - component: {fileID: 7355026367392405312}
+  - component: {fileID: 2074275269}
   m_Layer: 0
   m_Name: Head
   m_TagString: Untagged
@@ -222,6 +223,20 @@ CapsuleCollider:
   m_Height: 2
   m_Direction: 1
   m_Center: {x: 0.000000059604645, y: 0, z: -0.00000008940697}
+--- !u!114 &2074275269
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3967486213777268757}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 238ec6e44718646449a1d64ef84731b7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lightMode: 0
+  flameLight: {fileID: 5431598565269049265}
 --- !u!1 &5431598565269049265
 GameObject:
   m_ObjectHideFlags: 0
@@ -239,7 +254,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &120708096252757870
 Transform:
   m_ObjectHideFlags: 0
@@ -370,7 +385,6 @@ Transform:
   m_Children:
   - {fileID: 6243319786407155448}
   - {fileID: 6243319786755922803}
-  - {fileID: 4867734069033720428}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -668,7 +682,6 @@ GameObject:
   - component: {fileID: 6243319786407155448}
   - component: {fileID: 6243319786407155450}
   - component: {fileID: 6243319786407155451}
-  - component: {fileID: 748421589}
   m_Layer: 8
   m_Name: Camera
   m_TagString: MainCamera
@@ -686,7 +699,8 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 2, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 4867734069033720428}
   m_Father: {fileID: 6243319785877274628}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -793,20 +807,6 @@ MonoBehaviour:
   m_BeforeTransparentBundles: []
   m_BeforeStackBundles: []
   m_AfterStackBundles: []
---- !u!114 &748421589
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6243319786407155447}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 238ec6e44718646449a1d64ef84731b7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  lightMode: 0
-  flameLight: {fileID: 0}
 --- !u!1 &6243319786755922802
 GameObject:
   m_ObjectHideFlags: 0
@@ -961,7 +961,6 @@ GameObject:
   - component: {fileID: 2084526507482185866}
   - component: {fileID: 4550560904968205258}
   - component: {fileID: 917298972143746883}
-  - component: {fileID: 1360779445458051719}
   m_Layer: 0
   m_Name: PickUpTrigger
   m_TagString: Untagged
@@ -1044,19 +1043,3 @@ CapsuleCollider:
   m_Height: 2
   m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &1360779445458051719
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8705650052669631667}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cbb3fa37fdf7997428e396ccaf3f73f3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _distance: 0
-  item: {fileID: 2785025712574238286}
-  actionText: {fileID: 0}
-  light: {fileID: 5431598565269049265}

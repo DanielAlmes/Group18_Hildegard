@@ -22,6 +22,7 @@ public class DoorOpen : MonoBehaviour
     {
         if (_distance <= 2f)
         {
+            ActionText.GetComponent<Text>().text = "A closed door.";
             ActionText.SetActive(true);
             Cursor.visible = true;
             }
