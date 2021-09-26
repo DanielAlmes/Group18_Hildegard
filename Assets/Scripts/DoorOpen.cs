@@ -23,9 +23,16 @@ public class DoorOpen : MonoBehaviour
         if (_distance <= 2f)
         {
             ActionText.SetActive(true);
-                Cursor.visible = true;
-                Cursor.lockState = CursorLockMode.None;
+            Cursor.visible = true;
+            Cursor.lockState = CursorLockMode.None;
             }
+        else
+        {
+            ActionText.SetActive(false);
+            Cursor.visible = false;
+            Cursor.lockState = CursorLockMode.Locked;
+            
+        }
 
         if (Input.GetMouseButtonDown(0))
         {
