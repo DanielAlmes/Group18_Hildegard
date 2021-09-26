@@ -20,18 +20,18 @@ public class DoorOpen : MonoBehaviour
 
     private void OnMouseOver()
     {
-        if (_distance <= 3f)
+        if (_distance <= 2f)
         {
             ActionText.SetActive(true);
         }
 
-        if (Input.GetButtonDown("Action"))
+        if (Input.GetMouseButtonDown(0))
         {
-            if (_distance <= 3f)
+            if (_distance <= 2f)
             {
                 this.GetComponent<BoxCollider>().enabled = false;
                 ActionText.SetActive(false);
-                Door.GetComponent<Animation>().Play("DoorOpenAnim");
+                Door.GetComponent<Animation>().Play("DoorOpenAnim001");
                 CreakSound.Play();
             }
         }
