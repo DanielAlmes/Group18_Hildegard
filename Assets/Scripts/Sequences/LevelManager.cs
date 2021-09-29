@@ -1,22 +1,25 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-
-public class Ending : MonoBehaviour
+using UnityEngine.SceneManagement;
+public class LevelManager : MonoBehaviour
 {
     [SerializeField] private GameObject player;
     [SerializeField] private GameObject fadeOutScreen;
     [SerializeField] private GameObject textBox;
-    
-    // Start is called before the first frame update
-    void Start()
+    public void OnTriggerEnter(Collider other)
     {
-        Cursor.visible = false;
-        player.GetComponent<PlayerController>().enabled = false;
-        StartCoroutine(ScenePlayer());
+        if (other.CompareTag("Player"))
+        {
+            Cursor.visible = false;
+            player.GetComponent<PlayerController>().enabled = false;
+            StartCoroutine(ScenePlayer());
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        }
+        
     }
-
     IEnumerator ScenePlayer()
     {
         yield return new WaitForSeconds(1f);
