@@ -2098,7 +2098,7 @@ MonoBehaviour:
   song2: {fileID: 8300000, guid: aa29893140715234fa4c6f0f17bc3d88, type: 3}
   flyAway1: {fileID: 8300000, guid: 9dabaef0cd2ecb241956e3db52d3bc8d, type: 3}
   flyAway2: {fileID: 8300000, guid: ae13220b2fee67344b8b455414c59ff4, type: 3}
-  fleeCrows: 0
+  fleeCrows: 1
 --- !u!65 &6500000
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2138,7 +2138,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: aa29893140715234fa4c6f0f17bc3d88, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
