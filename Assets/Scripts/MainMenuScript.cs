@@ -30,8 +30,8 @@ public class MainMenuScript : MonoBehaviour
 
     public void StartButton()
     {
-        //loads the scene called "FirstScene"
-        SceneManager.LoadScene("FistScene");
+        //loads the first level
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 
     
