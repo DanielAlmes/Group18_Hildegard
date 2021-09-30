@@ -28,7 +28,7 @@ public class MainMenuScript : MonoBehaviour
         OptionsMenu.SetActive(false);
     }
 
-    public void StartButton()
+    public void PlayGame()
     {
         //loads the first level
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
