@@ -11,15 +11,18 @@ public class DoorOpen : MonoBehaviour
     public GameObject Door;
     public AudioSource CreakSound;
     
-    // Update is called once per frame
+
     void Update()
     {
+    // get the distance to the door
         _distance = PlayerCasting.DistanceFromTarget;
 
     }
 
+   // The mouse is on the door
     private void OnMouseOver()
     {
+        // close to the door information and the cursor appear
         if (_distance <= 2f)
         {
             ActionText.GetComponent<Text>().text = "A closed door.";
@@ -32,7 +35,7 @@ public class DoorOpen : MonoBehaviour
             Cursor.visible = false;
             
         }
-
+        // opening the mouse by clicking onto it
         if (Input.GetMouseButtonDown(0))
         {
             if (_distance <= 2f)
@@ -46,6 +49,7 @@ public class DoorOpen : MonoBehaviour
         }
     }
 
+    // The mouse leaves the door : Cursor and Information disappear
     private void OnMouseExit()
     {
         ActionText.SetActive(false);

@@ -5,11 +5,12 @@ using UnityEngine.UI;
 
 public class CrowSound : MonoBehaviour
 {
-    public AudioSource CreakSound;
+    public AudioSource CawSound;
+    // Play the crowsound upon entering
     public void OnTriggerEnter(Collider other)
     {
         
-        CreakSound.Play ();
+        CawSound.Play ();
 
     }
 }

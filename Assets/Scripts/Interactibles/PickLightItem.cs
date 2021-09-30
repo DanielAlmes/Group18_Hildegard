@@ -11,15 +11,18 @@ public class PickLightItem : MonoBehaviour
     [SerializeField] private GameObject actionText;
 
     public GameObject helditem;
-    // Update is called once per frame
+
     void Update()
     {
+        // Check distance from Item
         _distance = PlayerCasting.DistanceFromTarget;
 
     }
 
+    // Mouse is over item
     private void OnMouseOver()
     {
+        // close to the item a text and the cursor appears, otherwise, they disappear
         if (_distance <= 2f)
         {
             actionText.GetComponent<Text>().text = "A flashlight. Might be useful!";
@@ -32,7 +35,7 @@ public class PickLightItem : MonoBehaviour
             Cursor.visible = false;
             
         }
-
+        // picking up the item by clicking the MouseButton
         if (Input.GetMouseButtonDown(0))
         {
             if (_distance <= 2f)
@@ -44,7 +47,8 @@ public class PickLightItem : MonoBehaviour
             }
         }
     }
-
+    
+    // if the mouse is not on the item make text and cursor disappear
     private void OnMouseExit()
     {
         actionText.SetActive(false);
