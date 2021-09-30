@@ -25,7 +25,7 @@ public class PickLightItem : MonoBehaviour
         // close to the item a text and the cursor appears, otherwise, they disappear
         if (_distance <= 2f)
         {
-            actionText.GetComponent<Text>().text = "A flashlight. Might be useful!";
+            actionText.GetComponent<Text>().text = "This might be useful!";
             actionText.SetActive(true);
             Cursor.visible = true;
         }

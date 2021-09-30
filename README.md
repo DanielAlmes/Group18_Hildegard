@@ -32,7 +32,7 @@ To encounter this tough task, a time limit is set to increase the pressure.
 <br />
 
 * Music
-    * There will be music that should give a feeling of "horror" as one would expect in such a game
+    * There will be music that should give a feeling of "horror" as one would expect in such a game using an Asset
 * Scenes
     * There will be different scenes by each group member. (Also to avoid merge conflicts)
 * Assets
@@ -40,6 +40,8 @@ To encounter this tough task, a time limit is set to increase the pressure.
 * Textures
     * [Free Textures](http://www.cadhatch.com)
     * [Floor Textures](https://seamless-pixels.blogspot.com/2012/09/free-seamless-floor-tile-textures.html)
+* Sound effects
+  * [Free Sounds] (https://www.findsounds.com/)
 
 ### Miscellaneous
 This project was built from scratch.

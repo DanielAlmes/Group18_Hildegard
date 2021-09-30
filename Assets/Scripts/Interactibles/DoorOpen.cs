@@ -10,8 +10,9 @@ public class DoorOpen : MonoBehaviour
     public GameObject ActionText;
     public GameObject Door;
     public AudioSource CreakSound;
-    
-
+    public AudioSource RattleSound;
+    public bool _doorLockd;
+    [SerializeField] private GameObject Key;
     void Update()
     {
     // get the distance to the door
@@ -40,11 +41,35 @@ public class DoorOpen : MonoBehaviour
         {
             if (_distance <= 2f)
             {
-                this.GetComponent<BoxCollider>().enabled = false;
-                ActionText.SetActive(false);
-                Door.GetComponent<Animation>().Play("DoorOpenAnim001");
-                CreakSound.Play();
-                Cursor.visible = false;
+                if (_doorLockd == false)
+                {
+                    this.GetComponent<BoxCollider>().enabled = false; 
+                    ActionText.SetActive(false);
+                    Door.GetComponent<Animation>().Play("DoorOpenAnim001");
+                    CreakSound.Play();
+                    Cursor.visible = false;
+                }
+
+                if (_doorLockd == true)
+                {
+                    if (Key.activeSelf == false)
+                    {
+                        Door.GetComponent<Animation>().Play("RattlingDoorAnim001");
+                        RattleSound.Play();
+                        ActionText.GetComponent<Text>().text = "I need a key."; 
+                        ActionText.SetActive(true);
+                        Cursor.visible = true;
+                    }
+                    else
+                    {
+                        this.GetComponent<BoxCollider>().enabled = false; 
+                        ActionText.SetActive(false);
+                        Door.GetComponent<Animation>().Play("DoorOpenAnim001");
+                        CreakSound.Play();
+                        Cursor.visible = false;
+                    }
+                }
+                
             }
         }
     }
