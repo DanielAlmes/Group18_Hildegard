@@ -23,8 +23,7 @@ To encounter this tough task, a time limit is set to increase the pressure.
 ### Special features
 * Menu with different options
     * Start (the game)
-    * Options (E.g. if there should be a timer aka hard-level)
-    * Highscore (listing the achievements of previous games)
+    * Options
     * Exit (the game)
 
 ![](pictures/MainMenu_Picture.png)
@@ -65,6 +64,8 @@ $ git push
 This is a project of Group 18 in the course 'Advanced Experiment Design in Unity' (SoSe 2021)
 * Hannah Onken
 * Fabienne Kock
+* Daniel Almes
+Originally all three worked together, but the final product is only the scene by Fabienne Kock and parts of Hannah Onkens Coding for the Main Menu
 
 
 [Unity Website](https://unity.com/de)
