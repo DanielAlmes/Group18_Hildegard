@@ -1,8 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
-using UnityEditor.Build.Content;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class MainMenuScript : MonoBehaviour
 {
@@ -22,6 +22,7 @@ public class MainMenuScript : MonoBehaviour
     
     public void MainMenuButton()
     {
+    
         //deactivate MainMenu
         MainMenu.SetActive(true);
         //activate credits
