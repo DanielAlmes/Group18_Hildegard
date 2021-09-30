@@ -9,7 +9,7 @@ public class Opening : MonoBehaviour
     [SerializeField] private GameObject fadeInScreen;
     [SerializeField] private GameObject textBox;
     
-    // Start is called before the first frame update
+
     void Start()
     {
         Cursor.visible = false;
@@ -17,6 +17,8 @@ public class Opening : MonoBehaviour
         StartCoroutine(ScenePlayer());
     }
 
+    
+    //Create a fade in Scene
     IEnumerator ScenePlayer()
     {
         yield return new WaitForSeconds(1f);

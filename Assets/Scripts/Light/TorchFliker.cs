@@ -15,6 +15,7 @@ public class TorchFliker : MonoBehaviour
         }
     }
 
+    // Playing different Light Animations to animate the Torch flicker
     IEnumerator AnimateLight()
     {
         lightMode = Random.Range(1, 4);

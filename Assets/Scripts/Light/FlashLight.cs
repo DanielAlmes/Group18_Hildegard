@@ -15,6 +15,7 @@ public class FlashLight : MonoBehaviour
         }
     }
 
+    // Playing different FlashLight Animations to animate the Light
     IEnumerator AnimateLight()
     {
         lightMode = Random.Range(1, 4);
