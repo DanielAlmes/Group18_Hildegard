@@ -1,8 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
-using UnityEditor.Build.Content;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class MainMenuScript : MonoBehaviour
 {
@@ -22,16 +22,17 @@ public class MainMenuScript : MonoBehaviour
     
     public void MainMenuButton()
     {
+    
         //deactivate MainMenu
         MainMenu.SetActive(true);
         //activate credits
         OptionsMenu.SetActive(false);
     }
 
-    public void StartButton()
+    public void PlayGame()
     {
-        //loads the scene called "FirstScene"
-        SceneManager.LoadScene("FistScene");
+        //loads the first level
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 
     

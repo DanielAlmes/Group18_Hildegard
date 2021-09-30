@@ -15,7 +15,7 @@ public class LevelManager : MonoBehaviour
             Cursor.visible = false;
             player.GetComponent<PlayerController>().enabled = false;
             StartCoroutine(ScenePlayer());
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
 
     }
     // End of Scene Anim
